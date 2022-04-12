@@ -1,4 +1,8 @@
+body
+{
 
+font-family: 'Roboto', sans-serif;
+}
 
 img , #inputField
 {
@@ -29,6 +33,7 @@ img , #inputField
 text
 {
   fill: white;
+  font-weight: bold;
 }
 
 rect
