@@ -24,7 +24,7 @@ var rect1 = document.getElementById("rect1");
 rect1.style.visibility = "visible";
 
 var text1 = document.getElementById("text1");
-text1.setAttribute("x", 120);
+text1.style.visibility = "visible";
 
 
 /*
