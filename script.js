@@ -13,7 +13,8 @@ var loadFile = function(event) {
     }
 
 
-
+var svg1 = document.createElement('svg1');
+svg1.setAttribute('x', -100);
 
 
   var description1 = document.getElementById("outputDescription");
@@ -21,6 +22,11 @@ var loadFile = function(event) {
 
 var rect1 = document.getElementById("rect1");
 rect1.style.visibility = "visible";
+
+var text1 = document.getElementById("text1");
+text1.setAttribute("x", 120);
+
+
 /*
   var description2 = document.getElementById("output2Description");
   description2.innerHTML = "Thumbnail auf der Start-Seite und der Suche in der minimalen Größe, 210x118";

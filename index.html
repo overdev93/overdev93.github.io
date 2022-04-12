@@ -5,28 +5,26 @@
     <meta charset="utf-8">
     <title>Youtube Thumbnail Previewer</title>
     <link href="style.css" rel="stylesheet" />
-
-
   </head>
-
   <body>
-
     <input id="inputField" type="file" accept="image/*" onchange="loadFile(event)">
     <br>
-
     <img id="output"></img>
+    <svg
+      id="svg1"
+      class="svgsection"
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      width="210"
+      height="118"
+      viewBox="0 0 210 118"
+      fill="red"
+      fill-opacity="1"
+    >
+      <rect id="rect1"  x=154 y=96 width=51 height=18></rect>
+       <text id="text1" x=158 y=110 font-size= 14px>1:15:32</text>
 
-    <svg id="svg1" class="svgsection" xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <!--<text id="text1">1111cffghfghfhfhfhsfhfghfhfhfghfhf</text> -->
-      <rect id="rect1" visibility="hidden"></rect>
-
-    </svg>
-    <div id="outputDescription">Please only choose a 16:9 image.</div>
-
-
-
-
+   </svg>
    <script src=" script.js"></script>
   </body>
-
 </html>

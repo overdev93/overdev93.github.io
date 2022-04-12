@@ -1,7 +1,4 @@
-body
-{
-  font-family: Verdana, sans-serif;
-}
+
 
 img , #inputField
 {
@@ -26,26 +23,15 @@ img , #inputField
   top:0px;
   left:0px;
   margin-left: 8px;
-  width: 210px;
-  height: 118px;
   margin-top: 49px;
 }
 
-rect,text
+text
 {
-  fill: black;
-  /*fill-opacity: 0.5;*/
-  rx: 1;
-  ry: 1;
-  width: 51px;
-  height: 18px;
-  x: 154;
-  y: 96;
-
+  fill: white;
 }
 
-#text1
+rect
 {
-  x: 200;
-  y: 200;
+  fill: black;
 }
