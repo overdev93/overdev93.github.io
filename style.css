@@ -1,0 +1,51 @@
+body
+{
+  font-family: Verdana, sans-serif;
+}
+
+img , #inputField
+{
+    margin-bottom: 20px;
+}
+
+.description
+{
+  margin-bottom: 30px;
+}
+
+#output
+{
+  width: 210px;
+  height: 118px;
+}
+
+
+#svg1
+{
+  position: absolute;
+  top:0px;
+  left:0px;
+  margin-left: 8px;
+  width: 210px;
+  height: 118px;
+  margin-top: 49px;
+}
+
+rect,text
+{
+  fill: black;
+  /*fill-opacity: 0.5;*/
+  rx: 1;
+  ry: 1;
+  width: 51px;
+  height: 18px;
+  x: 154;
+  y: 96;
+
+}
+
+#text1
+{
+  x: 200;
+  y: 200;
+}
