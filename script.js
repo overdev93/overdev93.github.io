@@ -18,7 +18,7 @@ svg1.setAttribute('x', -100);
 
 
   var description1 = document.getElementById("outputDescription");
-  description1.innerHTML = "Thumbnail on the subscription site, 210x118";
+  description1.innerHTML = "Thumbnail displayed like on the subscription site, 210x118";
 
 var rect1 = document.getElementById("rect1");
 rect1.style.visibility = "visible";
